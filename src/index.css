@@ -1,13 +1,62 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Montserrat:wght@600&family=Poppins:wght@300&display=swap');
+
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li{
+  list-style: none;
+  font-family: 'Cinzel', serif;
+  font-family: 'Fauna One', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.redList {
+  color: rgb(232, 72, 72);
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.redList-img {
+  width: 20px;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  z-index: 3;
+ 
+}
+.title {
+  font-family: 'Cinzel', serif;
+  font-family: 'Fauna One', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.mainStanding {
+  object-fit:cover;
+  width: 38%;
+}
+
+.mainSection {
+  margin-top: 60px;
+  background: linear-gradient(rgb(186, 199, 219), rgb(222, 233, 231), rgb(255, 255, 255));
 }
